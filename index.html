@@ -49,7 +49,7 @@
                 <div class="row">
 
                     <!-- search box -->
-                    <section class="search-box col-lg-3 col-sm-6 col-mb-12">
+                    <section class="search-box col-lg-3 col-sm-4 col-mb-12">
 
                         <h5 class="my-3 text-center">Search for a City</h5>
 
@@ -62,7 +62,7 @@
                                 type="text"
                                 Title='"[City Name]" or "[City Name], [Country Code]"'
                                 class="form-control"
-                                placeholder="Enter a city"
+                                placeholder="City Name"
                                 value="Toronto"
                                 aria-label="Enter a city name here"
                                 onclick="this.select()"
@@ -90,7 +90,7 @@
                             <button
                                 class="btn btn-primary m-2 mb-4"
                                 type="button"
-                                id="clear-history"
+                                id="clear-history-button"
                             >
                                 Clear history
                             </button>
@@ -109,7 +109,7 @@
                     </section>
                     <!-- /search-box -->
 
-                    <section class="weather-container col-lg-9 col-sm-6 col-mb-12">
+                    <section class="weather-container col-lg-9 col-sm-8 col-mb-12">
 
                         <div class="row justify-content-center">
 
@@ -122,11 +122,12 @@
                                         <img id="weather-icon" />
                                     </h2>
                                     <p id="date"></p>
+                                    <p id="time"></p>
                                     <p id="temperature"></p>
                                     <p id="humidity"></p>
                                     <p id="wind-speed"></p>
                                     <p id="UV-index">
-                                        <span id="UV-value"></span>
+                                        UV index: <span class="p-1" id="UV-value"></span>
                                     </p>
 
                                 </div>

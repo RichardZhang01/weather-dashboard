@@ -23,3 +23,15 @@ header {
 .history-btn {
     color: #0275d8 !important;
 }
+
+#UV-value {
+    white-space: pre;
+}
+
+.bg-vhigh {
+    background-color: rgb(153, 27, 27);
+}
+
+.bg-extreme {
+    background-color: rgb(168, 50, 168);
+}
