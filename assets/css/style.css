@@ -1,5 +1,5 @@
 body {
-    font-family: 'Raleway', 'Noto Sans', sans-serif;
+    font-family: 'Raleway', 'Noto Sans', Arial, sans-serif;
     background-color: rgb(238, 248, 255) !important;
 }
 
@@ -10,11 +10,6 @@ header {
     /* background: linear-gradient( 89.7deg,  rgba(0,0,0,1) -10.7%, rgba(53,92,125,1) 88.8% ); */
     /* background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,107,141,1) 0%, rgba(0,69,91,1) 90% ); */
 }
-
-header {
-    margin: 0 !important;
-}
-
 
 .card-body p {
     font-size: 1.2rem;
