@@ -23,7 +23,7 @@ let setDateTime = null;
 let savedCities = JSON.parse(localStorage.getItem("city-search-history")) || [];
 
 // function to fetch a city's weather based on the user's input on the webpage
-const fetchCity = (event) => {
+const fetchCity = async (event) => {
 
     // prevents the form from refreshing the page
     event.preventDefault();
